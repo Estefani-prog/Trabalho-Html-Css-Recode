@@ -1,0 +1,118 @@
+body {
+    font-family: Nunito, sans-serif;
+    color: #1c1c1c;
+}
+
+h1,h2,h3 {
+    font-family: Asaf, sans-serif;
+    color: #000000;
+
+}
+
+nav {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgb(1, 230, 246);
+}
+
+nav > a {
+text-decoration: none;
+color: rgb(209, 55, 55);
+font-weight: 800;
+font-size: 32px;
+font-family: Yellowtail, serif;
+
+}
+
+nav ul {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    list-style: none;
+    padding: 0;
+    width: 100%;
+
+}
+
+nav ul li {
+ text-align: center;
+ width: 100%;
+
+}
+
+nav ul li a {
+    display: inline-block;
+    padding: 10px 0;
+    width: 100%;
+    text-decoration: none;
+    color: black;
+}
+
+header {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    
+    
+    
+}
+
+header h1 {
+    color: rgb(255, 145, 0);
+
+}
+
+header p {
+    margin-bottom: 2em;
+}
+
+#sobre {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px 10px 20px 20px;
+    background-color: rgb(1, 230, 246);
+    color: black;
+
+
+}
+
+#sobre h2 {
+color: black;
+height: 10px;
+justify-content: center;
+min-width: 250px;
+}
+
+#sobre p{
+    margin-bottom: 2.5em;
+    max-width: 1000px;
+    color: black;
+}
+
+header {
+
+    height: 600px;
+    height: 60vh;
+    justify-content: center;
+    color: black;
+}
+
+footer {
+text-align: center;
+padding: 10px;
+background-color: rgb(1, 230, 246);
+color: black;
+
+}
+
+#contato{
+display: flex;
+flex-direction: column;
+align-items: center;
+text-align: center;
+padding: 10px
+
+}
